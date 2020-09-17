@@ -1,0 +1,36 @@
+.app {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.header {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: aliceblue;
+}
+.form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.button{
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
